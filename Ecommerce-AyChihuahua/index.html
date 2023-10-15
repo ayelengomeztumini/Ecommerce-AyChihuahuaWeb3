@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+        <title> Mi Pagina Web </title>
+        <link rel="stylesheet" href="./estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;1,200;1,400;1,700&display=swap" rel="stylesheet">"
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+        <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/aychihuahualogo2.JPG" width="250px">
+            </div>
+
+            <nav>
+                <ul id="MenuItems" class="encabezado_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/nosotros.html">Nosotros</a></li>
+                    <li><a href="http://127.0.0.1:5500/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <img src="img/shopping-cart.png" width="30px" height="30px">
+            <img src="img/hamburguer.png" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+        </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>¡Dale a tu mascota un nuevo look!</h1>
+                    <p>Mira ahora todas nuestras opciones y aprovechá las mejores ofertas</p>
+                    <a href="" class="btn">Ver ahora &#8594</a>
+                </div>
+                <div class="col-2">
+                    <img src="img/cama1.JPG">
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!------Featured Categories------>
+        <div class="categories">
+            <div class="small_container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/Rascador infinito 2.JPG" alt="rascador">
+                </div>
+                <div class="col-3">
+                    <img src="img/rascador1.JPG" alt="rascador">
+                </div>
+                <div class="col-3">
+                    <img src="img/Cuna Moises Gris.JPG" alt="rascador">
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!------Featured Products------>
+
+        <div class="small_container">
+            <h2 class="title">Featured Products</h2>
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="img/Piloto Verde Agua.JPG" alt="piloto_verde">
+                    <h4>Piloto Verde Agua</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                    <p>5000 ARS</p>
+                </div>
+                <div class="col-4">
+                    <img src="img/Enterito Nieve Azul.JPG" alt="enterito_nieve">
+                    <h4>Enterito para Nieve</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                    <p>9000 ARS</p>
+                </div>
+                <div class="col-4">
+                    <img src="img/campera2.JPG" alt="chaleco_tricolor">
+                    <h4>Chaleco Tri Color</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                    <p>10000 ARS</p>
+                </div>
+            </div>
+                <h2 class="title">Últimos Ingresos</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="img/Buzo Hoodie Batik.JPG" alt="buzo_batik">
+                        <h4>Buzo Hoodie Batik</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                        <p>5000 ARS</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="img/Pijama Entero Rosa.JPG" alt="pijama_rosa">
+                        <h4>Pijama Rosa</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                        <p>9000 ARS</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="img/Silla Verde Agua.JPG" alt="silla_verde">
+                        <h4>Silla Verde</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                        <p>10000 ARS</p>
+                    </div>
+                </div>
+        </div>        
+        
+        <!------ Offers ------>
+        <div class="offer">
+            <div class="small_container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="img/comedero importado.JPG" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusivo en AyChihuahua</p>
+                        <h1>Comedero automatico importado 3.5l - PetWant</h1>
+                        <small>Ventana clara y visible. Bandeja de alimentos de acero inoxidable removible. 12 botones para operar. Doble suministro de energía. Reproducción de voz, grabación de 10 segundos. Alimentación de 4 comidas al día, dosificación de 1 a 20 porciones por comida, cada porción es de 10 g. Memoria de parámetros. Adecuado para alimentos de 5 mm a 12 mm. Caja de cambios de alta torsión para evitar bloqueos. Diseño físico, motor de alta calidad con autoprotección. Material: ABS Capacidad: 3.5L Tamaño de los alimentos: 5-12mm Alimentación: DC5V1A sin batería</small>
+                        <br>
+                        <a href="" class="btn">¡Lo quiero!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------ Testimonials ------>
+
+        <div class="testimonials">
+            <div class="small_container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit nisi nec, nullam inceptos venenatis malesuada ut imperdiet placerat non, quam porttitor dis leo lacinia lacus tincidunt mattis.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="img/Foto Usuario.JPG">
+                        <h3>Isabel Martinez</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit nisi nec, nullam inceptos venenatis malesuada ut imperdiet placerat non, quam porttitor dis leo lacinia lacus tincidunt mattis.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="img/Foto usuario 2.JPG">
+                        <h3>Isabel Martinez</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit nisi nec, nullam inceptos venenatis malesuada ut imperdiet placerat non, quam porttitor dis leo lacinia lacus tincidunt mattis.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="img/Foto usuario 3.JPG">
+                        <h3>Isabel Martinez</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Links Utiles</h3>
+                        <br>
+                        <ul>
+                            <li>Política de Devoluciones</li>
+                            <li>Políticas y Tiempos de Envío</li>
+                        </ul>
+                    </div>
+                
+                    <div class="footer-col-2">
+                        <img src="img/aychihuahualogo2.JPG" width="250px" alt="aychihuahualogo2">
+                    </div>
+
+                    <div class="footer-col-3">
+                        <h3>Seguinos</h3>
+                        <br>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
